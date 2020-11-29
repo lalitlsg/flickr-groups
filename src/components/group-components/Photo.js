@@ -32,7 +32,6 @@ const PhotoWrapper = styled.div`
 `;
 
 const Photo = props => {
-  console.log(props);
   let { url, ownername } = props.photo;
   return (
     <PhotoWrapper>
