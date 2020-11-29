@@ -88,8 +88,6 @@ const GalleryContainer = () => {
     groupInfo();
   }, []);
 
-  console.log(photos);
-
   const renderPhotos = photos.map(photo => (
     <Photo key={photo.secret} photo={photo} />
   ));
